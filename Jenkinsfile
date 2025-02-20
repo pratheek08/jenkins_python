@@ -5,7 +5,7 @@ pipeline {
         // Stage 1: Clone Repository from GitHub
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/Prsingh9/python-app-build.git', branch: 'main'
+                git url: 'https://github.com/pratheek08/jenkins_python', branch: 'main'
             }
         }
 
